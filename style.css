@@ -1,0 +1,134 @@
+body {
+    background: url("img/bg second.jpg") no-repeat;
+    background-size: 100%;
+    width: 800px;
+    height: 600px;
+
+
+}
+
+.iron-red {
+    color: red;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 109px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+ flex-grow: 1;
+    padding-top: 10%;
+
+
+}
+
+.man-white {
+    color: white;
+    text-transform: uppercase;
+    font-size: 109px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+   flex-grow: 3;
+    opacity: 0.3;
+    padding-top: 10%;
+
+
+}
+
+.avengers {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.text-left-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.text-left {
+    writing-mode: vertical-lr;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-right {
+    writing-mode: vertical-lr;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+
+}
+
+#black-layer {
+    height: 422px;
+    width: 758px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 7%;
+    margin-left: 20%;
+    opacity: 0.5;
+
+}
+
+
+.iron-man-letters {
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: 325px;
+    position: absolute;
+    bottom: 23%;
+    left: 25%;
+
+
+}
+
+#iron-man {
+position: absolute;
+left: 42%;
+bottom: 1%;
+width: 170px;
+height: 455px;
+
+}
+
+#mask {
+    background-color: rgba(0, 0, 0, .8);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#red-button {
+background-color: red;
+position: absolute;
+height: 37px;
+width: 160px;
+font-size: 16px;
+color: white;
+border: 2px solid red;
+left: 72%;
+bottom: 17%;
+border-radius: 2px;
+}
+
+#red-line {
+position: absolute;
+height: 30px;
+width: 57px;
+left: 8%;
+bottom: 81%;
+
+}
